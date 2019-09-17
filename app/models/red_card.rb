@@ -1,0 +1,2 @@
+class RedCard < ApplicationRecord
+end
