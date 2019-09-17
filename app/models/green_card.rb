@@ -1,0 +1,2 @@
+class GreenCard < ApplicationRecord
+end
