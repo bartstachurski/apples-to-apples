@@ -758,6 +758,7 @@ data = {
 
 i = 0 
 while i < data.values.length 
-	RedCard.create!(name: data.keys[i], description: data.values[i]) 
+	RedCard.create(name: data.keys[i], description: data.values[i]) 
 	i+=1
 end 
+
