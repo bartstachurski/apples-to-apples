@@ -1,7 +1,8 @@
 import React from 'react';
+import NewGameButton from './NewGameButton';
 
-const Game = props => (
-  <div>Hello from the game component!</div> 
+const Game = () => (
+  <NewGameButton /> 
 );
 
 
