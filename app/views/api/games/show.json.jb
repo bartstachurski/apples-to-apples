@@ -1,0 +1,7 @@
+{
+  id: @game.id,
+  player_id: @game.player_id,
+  player_round_wins: @game.player_round_wins,
+  player_wins: @game.player_wins,
+  game_duration: @game.game_duration
+}
